@@ -1,0 +1,7 @@
+# Arduino/ESP32 local build folders
+/HandheldConsole/build/
+/HandheldConsole/libraries/
+
+# Operating System junk
+.DS_Store
+Thumbs.db
