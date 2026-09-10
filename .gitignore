@@ -1,7 +1,26 @@
-# Arduino/ESP32 local build folders
-/HandheldConsole/build/
-/HandheldConsole/libraries/
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Arduino local build folders
+Gamepad/build/
+*.bin
+*.elf
+*.hex
+
+# IDE and Editor configs
+.vscode/
+.idea/
+*.swp
+*~
 
 # Operating System junk
 .DS_Store
 Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Raw uncompressed photo dumps (web assets are in docs/images/)
+/Images/
+scratch/
